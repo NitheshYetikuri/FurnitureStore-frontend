@@ -1,0 +1,21 @@
+/* Adjust the background color for each product tile */
+.product-tile {
+    background-color: rgba(185, 222, 151, 0.8); /* Semi-transparent white background */
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5%;
+}
+
+/* Adjust the background color for each product tile if 'product-tile' class is not present */
+mat-grid-tile {
+    background-color: rgba(180, 181, 176, 0.8); /* Semi-transparent white background */
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5%;
+}
+
+/* Keep the image centered within the product tile */
+.home-page-product-image {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5%; /* Add margin to center the image */
+}
+

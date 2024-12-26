@@ -1,0 +1,49 @@
+/* Button base styles */
+mat-toolbar button.mat-raised-button {
+
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 16px; /* Space between buttons */
+ 
+  }
+mat-toolbar{
+  background-color: rgb(122, 123, 67);
+}
+  
+  .toolbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Space between the logo and the title */
+  }
+  
+  
+  .centered-text {
+    display: block; /* Change the span to a block element */
+    text-align: center; 
+    width: 100%;/* Center the text horizontally */
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    color: #eff3f7; /* Set a custom color */
+    padding: 10px 0; /* Add some padding above and below the text */
+    letter-spacing: 1px; /* Increase spacing between letters */
+    text-transform: uppercase; /* Optional: Transform text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle text shadow */
+  }
+  
+  
+  
+  .brown-buttons button.mat-raised-button {
+    background-color: rgba(236, 163, 46, 0.712);
+    color: white; /* Text color */
+  }
+  
+  .brown-buttons button.mat-raised-button:hover {
+    background-color:rgba(210, 155, 67, 0.712); /* Darker brown on hover */
+  }
+  

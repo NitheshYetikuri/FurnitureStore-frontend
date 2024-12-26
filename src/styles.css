@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+  body.mat-typography {
+    background-image: url('/assets/images/newBack.jpg'); /* Replace with your image's path */
+    background-size: cover; /* This will ensure that your background covers the full area of the body */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center center; /* This will position your image in the center of the body */
+    background-attachment: fixed; /* This will ensure that the background image is fixed during scroll */
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

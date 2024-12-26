@@ -1,0 +1,20 @@
+.welcome-card {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    color: #dc3545; /* red */
+    width: 80%;
+    margin: 0 auto; /* Center align horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+.welcome-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make text bold */
+}
+
+.welcome-card p {
+    font-size: 18px;
+    line-height: 1.5;
+}

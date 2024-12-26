@@ -1,0 +1,22 @@
+/* Assuming you have a class named 'card' for the card element */
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Assuming you have a class named 'w-100' for the full width form fields */
+.mat-form-field.w-100 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}
